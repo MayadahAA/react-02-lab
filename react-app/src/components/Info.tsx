@@ -1,7 +1,7 @@
 
 function Info() {
   return (
-    <div>Info</div>
+    <div className="text-lime-700">Info</div>
   )
 }
 

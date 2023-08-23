@@ -1,7 +1,8 @@
 import Home from "./pages/Home";
 import Login from "./pages/login";
 
-import { Routes, Route } from "react-router-dom";
+
+import { Routes, Route, Outlet } from "react-router-dom";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Login" element={<Login />} />
+        <Route path="*" element={'404'} />
       </Routes>
     </>
   );

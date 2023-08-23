@@ -1,7 +1,16 @@
 
 function LoginComp() {
-  return (
-    <div className="bg-slate-600">LoginComp</div>
+  return (<>
+  <div className="flex flex-col gap-3 py-32">
+    <div className=" flex justify-center align-middle ">
+      <input className="border-2 py-2 px-6 border-gray-500 rounded-lg" type="text" placeholder="email" />
+    </div>
+    <div className=" flex justify-center align-middle ">
+      <input className="border-2 py-2 px-6 border-gray-500 rounded-lg" type="text" placeholder="Password" />
+    </div>
+  </div>
+    
+  </>
   )
 }
 
