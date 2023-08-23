@@ -2,7 +2,7 @@ import Home from "./pages/Home";
 import Login from "./pages/login";
 
 
-import { Routes, Route, Outlet } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
